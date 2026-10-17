@@ -1,0 +1,17 @@
+# Virtual disks
+*.img
+*.vhd
+*.vhdx
+
+# Generated logs and archives
+*.log
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.lock
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

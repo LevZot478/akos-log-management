@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitor LOGS filesystem and archive old logs
+RequiresMountsFor=/LOGS
+After=mount-logs.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/lev/akos-lab/monitor_logs.sh
